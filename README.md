@@ -31,7 +31,7 @@ If mismatch, ask User if they would like to install the desired version
 
 
 ===tModLoaderEz===  
-<Server Active/Server Inactive> - <Public-IP>:<Port>  
+<Server Active/Server Inactive> - <Public IP>:<Port>  
 0. Active Server Manager {Only displays if Server Active}  
 1. Start Server (Auto)  
 2. Start Server (Manual)  
