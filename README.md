@@ -7,10 +7,22 @@ Mod installing should allow for download links directly to .tmod files as well a
 
 
 
-Download
-Install
-Set bash or whatever to use tModLoaderEz as a command that starts main.js
-tModLoaderEz >> node main.js
+Figure out which of these are actually needed  
+
+sudo chown -R $USER:$USER /home/ubuntu/tMod-ServerManager/tMod-Server  
+chmod +x /home/ubuntu/tMod-ServerManager/tMod-Server/dotnet/dotnet  
+chmod +x /home/ubuntu/tMod-ServerManager/tMod-Server/start-tModLoaderServer.sh  
+chmod -R 755 /home/ubuntu/tMod-ServerManager/tMod-Server/tModLoader-Logs  
+
+
+
+
+Download  
+Install  
+Set bash or whatever to use tModLoaderEz as a command that starts main.js  
+tModLoaderEz >> node main.js  
+
+
 
 
 
@@ -45,7 +57,7 @@ If mismatch, ask User if they would like to update them
 1. Start Server (Auto)      --> Stop Server (Auto)  
 2. Start Server (Manual)    --> Stop Server (Manual)  
 3. Mod Editor  
-4. Update {Just reruns startup scripts to update everything}
+4. Update {Cleanly pulls the server down and reruns startup script.  In settings can be set to run automatically on a timer.}
 5. Settings  
 
 
@@ -72,6 +84,24 @@ This should pull from/ interact with two different configs.  One for 'Downloaded
 
 
 # Start Server (Auto)
-Each setting here should automatically pull from their config.  If not set, it should ask the user  
+Each setting here should automatically pull from their config.  If not set, it should ask the User  
 
-1. 
+1. Use steam server (y/n):  
+2. Choose World (#/n): {If no config set, this will need to wait for the actual server setup to query, as it will show which #s are avaliable since they're pulled from found world files}
+   #: Move on
+   n:
+     a. Choose size (1/2/3):  
+     b. Choose difficulty (1/2/3/4):
+     c. Choose world evil (1/2/3):
+     d. Enter world name:
+     e. Enter Seed (Leave Blank For Random):
+     Then auto select the highest number, since this will return to 'Choose World' and the highest number will be the newest world
+3. Max Players (1-16):
+4. Server Port:
+5. Automatically forward port? (y/n):
+6. Server password (press enter for none):
+
+
+
+# Start Server (Manual)
+Run the same set as Auto, but ignore config and ask for entry on everything
