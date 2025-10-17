@@ -45,7 +45,7 @@ If mismatch, ask User if they would like to install the desired version
 
 (-) Runs tModLoader server commands, IE: -help  
 (.) Runs tModLoaderEz commands, IE: .help  
-(exit) returns to main menu  
+(.exit) returns to main menu  
 
 
 
