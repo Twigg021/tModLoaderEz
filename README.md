@@ -19,7 +19,7 @@ chmod -R 755 /home/ubuntu/tMod-ServerManager/tMod-Server/tModLoader-Logs
 
 Download  
 Install  
-Set bash or whatever to use tModLoaderEz as a command that starts main.js  
+Set bash or whatever to use tModLoaderEz as a command that starts main.js (Ask User)  
 tModLoaderEz >> node main.js  
 
 
