@@ -80,6 +80,7 @@ This should pull from/ interact with two different configs.  One for 'Downloaded
 5. Deactivate All  
 6. Activate All  
 7. Back {If the server is active, it should ask the user if they would like to restart it}
+8. Recursive Search {Only visible if there is a directory within "Mods", this should lead to a prompt telling User it'll delete all directories and just leave modern .tmods}
 
 
 
