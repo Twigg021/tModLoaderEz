@@ -114,5 +114,11 @@ If going directly to tModLoader.dll then might need to copy files around first. 
 
 Maybe instead just use command line params and don't let it query at all.  Just give it all the options on startup.  It would especially be cleaner using worldpaths and whatnot
 
+
+
+
+
+Can't use modded values for world gen without another mod to set those values pregen (fml) maybe make a mod that interacts with this to pull values from a config and set them prior to generation.
+
 # Start Server (Manual)
 Run the same set as Auto, but ignore config and ask for entry on everything
