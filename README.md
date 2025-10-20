@@ -112,5 +112,7 @@ Each setting here should automatically pull from their config.  If not set, it s
 
 If going directly to tModLoader.dll then might need to copy files around first.  Running it myself (with dotnet tModLoader.dll) gives issues saying it can't find ubuntu... I know how to fix this, just cp linux into missing name, but should I???  Maybe just use the start script instead, no real difference and seems to function cleaner as that's what the devs intend.  Possibly look into launch options for start script instead to see what can be done.
 
+Maybe instead just use command line params and don't let it query at all.  Just give it all the options on startup.  It would especially be cleaner using worldpaths and whatnot
+
 # Start Server (Manual)
 Run the same set as Auto, but ignore config and ask for entry on everything
