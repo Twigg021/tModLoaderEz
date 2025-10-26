@@ -19,8 +19,8 @@ chmod -R 755 /home/ubuntu/tMod-ServerManager/tMod-Server/tModLoader-Logs
 
 Download  
 Install  
-Set bash or whatever to use tModLoaderEz as a command that starts main.js (Ask User)  
-tModLoaderEz >> node main.js  
+Set bash or whatever to use tModLoaderEz as a command that starts main.js maybe? (Ask User)  
+tModLoaderEz >> node main.js (Or maybe instead just an .sh or .ps1 file so it can first check logic on installed packages)
 
 
 
@@ -104,6 +104,11 @@ Each setting here should automatically pull from their config.  If not set, it s
 
 
 
+# Start Server (Manual)
+Run the same set as Auto, but ignore config and ask for entry on everything
+
+
+
 
 
 
@@ -116,9 +121,14 @@ Maybe instead just use command line params and don't let it query at all.  Just 
 
 
 
-
-
 Can't use modded values for world gen without another mod to set those values pregen (fml) maybe make a mod that interacts with this to pull values from a config and set them prior to generation.  See 'Game File Inspection'
 
-# Start Server (Manual)
-Run the same set as Auto, but ignore config and ask for entry on everything
+
+
+
+
+Install logic
+
+
+
+Use DepotDownloader for 
